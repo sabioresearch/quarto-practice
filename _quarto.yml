@@ -12,8 +12,11 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: [flatly, styles-light.scss, custom.scss]
+      dark: [darkly, styles-dark.scss, custom.scss]
+    highlight-style:
+      light: github
+      dark: github-dark
     css: styles.css
     toc: true
 

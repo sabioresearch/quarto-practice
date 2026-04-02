@@ -1,7 +1,44 @@
 ---
 title: "Quarto Pratica"
+execute:
+  eval: true
 ---
 
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{python}
+#| echo: false
+import matplotlib.pyplot as plt
+
+def make_plot(style):
+    plt.style.use(style)
+    fig, ax = plt.subplots()
+    ax.plot([1, 2, 3], [1, 4, 9])
+    plt.show()
+```
+
+::: {.light-plot}
+```{python}
+#| echo: false
+make_plot('default')
+```
+:::
+
+::: {.dark-plot}
+```{python}
+#| echo: false
+make_plot('dark_background')
+```
+:::
+
+```{python}
+#| eval: false
+print("Hello, World!")
+```
+::: {.cell-output}
+Hello, World!
+:::
+
+

@@ -1,0 +1,8 @@
+/*-- scss:rules --*/
+.light-plot { display: block !important; }
+.dark-plot  { display: none !important; }
+
+body.quarto-dark {
+  .light-plot { display: none !important; }
+  .dark-plot  { display: block !important; }
+}
