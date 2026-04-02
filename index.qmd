@@ -36,6 +36,7 @@ make_plot('dark_background')
 ```{python}
 #| eval: false
 print("Hello, World!")
+print ("second line")
 ```
 ::: {.cell-output}
 Hello, World!

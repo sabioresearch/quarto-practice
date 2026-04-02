@@ -19,6 +19,10 @@ format:
       dark: github-dark
     css: styles.css
     toc: true
+    code-fold: true          # collapsible code blocks
+    code-tools: false         # copy button + show/hide all
+    code-line-numbers: true  # line numbers
+    code-overflow: scroll    # horizontal scroll instead of wrap
 
 
 
