@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Quarto Pratica",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nprint(\"Hello, World!\")\n\n\nHello, World!"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nprint(\"Hello, World!\")\nprint (\"second line\")\n\n\n\nHello, World!"
   },
   {
     "objectID": "about.html",
